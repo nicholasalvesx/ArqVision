@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D0AADD89-1C3F-4198-8734-6FC8A789ECF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{B8A045EF-E8B4-4E79-9246-90FCCA36D977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapp", "webapp", "{B7C6C0E3-A43A-443B-8D98-0FD202C5F9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArqVision.Webapp", "src\services\webapp\ArqVision.Webapp\ArqVision.Webapp.csproj", "{28EDBB61-D7FB-4B21-B251-985D436E8A62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8A045EF-E8B4-4E79-9246-90FCCA36D977} = {D0AADD89-1C3F-4198-8734-6FC8A789ECF7}
+		{B7C6C0E3-A43A-443B-8D98-0FD202C5F9DD} = {B8A045EF-E8B4-4E79-9246-90FCCA36D977}
+		{28EDBB61-D7FB-4B21-B251-985D436E8A62} = {B7C6C0E3-A43A-443B-8D98-0FD202C5F9DD}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28EDBB61-D7FB-4B21-B251-985D436E8A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EDBB61-D7FB-4B21-B251-985D436E8A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EDBB61-D7FB-4B21-B251-985D436E8A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EDBB61-D7FB-4B21-B251-985D436E8A62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

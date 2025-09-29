@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ArqVision Arquitetura</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    <span class="logo-text">ArqVision</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#andamento">Em Andamento</a></li>
+                    <li><a href="#processo">Processo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="/login" class="btn btn-ghost">Entrar</a>
+                    <a href="/cadastro" class="btn btn-primary">Orçamento</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3 class="footer-title">ArqVision</h3>
+                    <p class="footer-text">Transformamos espaços através de projetos arquitetônicos inovadores, funcionais e sustentáveis.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Empresa</h4>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#carreiras">Carreiras</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#projetos">Arquitetura Residencial</a></li>
+                        <li><a href="#projetos">Arquitetura Comercial</a></li>
+                        <li><a href="#projetos">Design de Interiores</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Contato</h4>
+                    <ul class="footer-links">
+                        <li>contato@arqvision.com</li>
+                        <li>(11) 3456-7890</li>
+                        <li>Rua das Constelações, 123</li>
+                        <li>São Paulo - SP</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; @DateTime.Now.Year ArqVision. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
