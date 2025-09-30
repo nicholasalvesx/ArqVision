@@ -86,4 +86,4 @@
 /home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/obj/Debug/net9.0/ref/ArqVision.Webapp.dll
 /home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/obj/Debug/net9.0/compressed/b7z1n92bbq-ia0nqz3po9.gz
 /home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/obj/Debug/net9.0/compressed/af8d31i8b5-6lx23xd77y.gz
-/home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/obj/Debug/net9.0/compressed/oe5fybjsh0-uiibo5hd8s.gz
+/home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/obj/Debug/net9.0/compressed/oe5fybjsh0-ky2qucs3ff.gz
