@@ -1,5 +1,4 @@
 ﻿FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
-USER $APP_UID
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
@@ -7,15 +6,19 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj", "src/services/webapp/ArqVision.Webapp/"]
-RUN dotnet restore "src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj"
+
+# Copiar apenas o csproj do projeto atual
+COPY ["ArqVision.Webapp.csproj", "./"]
+RUN dotnet restore "ArqVision.Webapp.csproj"
+
+# Copiar todo o restante do código
 COPY . .
-WORKDIR "/src/src/services/webapp/ArqVision.Webapp"
-RUN dotnet build "./ArqVision.Webapp.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+RUN dotnet build "ArqVision.Webapp.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./ArqVision.Webapp.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "ArqVision.Webapp.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
