@@ -70,9 +70,10 @@ body {
     color: var(--accent);
 }
 
+/* LOGO DO TAMANHO DO TKCOTAÇÃO */
 .logo-svg {
-    width: auto;  /* Aumente conforme necessário */
-    height: auto;
+    width: 280px;  /* Mesma largura da TKCotação */
+    height: 73px;  /* Mesma altura da TKCotação */
     transition: all 0.3s ease;
 }
 
@@ -219,7 +220,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
+    width: 60%;
     height: 100%;
     background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80');
     background-size: cover;
@@ -462,15 +463,15 @@ body {
 /* PROJETOS EM ANDAMENTO */
 .progress-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* cartões mais largos */
-    gap: 40px; /* mais espaço entre eles */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
     margin-top: 60px;
 }
 
 .progress-card {
     background: var(--card-bg);
     border-radius: 12px;
-    padding: 2.5rem; /* mais respiro interno */
+    padding: 2.5rem;
     min-height: 280px;
     border: 1px solid var(--border-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -621,6 +622,13 @@ body {
 .footer-title {
     font-size: 1.5rem;
     color: var(--accent) !important;
+}
+
+/* Logo no footer com mesmo tamanho */
+.footer-section .logo-svg {
+    width: 280px;
+    height: 73px;
+    margin-bottom: 1rem;
 }
 
 .footer-text {
@@ -852,8 +860,13 @@ body {
 
     /* Logo responsiva para mobile */
     .logo-svg {
-        width: 160px;
-        height: 42px;
+        width: 200px;
+        height: auto;
+    }
+
+    .footer-section .logo-svg {
+        width: 200px;
+        height: auto;
     }
 }
 
@@ -897,7 +910,12 @@ body {
 
     /* Logo responsiva para mobile pequeno */
     .logo-svg {
-        width: 200px;
+        width: 180px;
+        height: auto;
+    }
+
+    .footer-section .logo-svg {
+        width: 180px;
         height: auto;
     }
 }

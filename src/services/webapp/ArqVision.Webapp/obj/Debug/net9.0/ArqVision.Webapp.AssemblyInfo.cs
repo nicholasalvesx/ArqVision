@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArqVision.Webapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8b067366e32b4fdf363b0bf818b3de502d57432")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccf3752dc22a7358cd3d8f8857b12151583d39e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArqVision.Webapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArqVision.Webapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
