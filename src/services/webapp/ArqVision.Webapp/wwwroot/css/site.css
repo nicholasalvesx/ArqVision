@@ -71,12 +71,13 @@ body {
 }
 
 .logo-svg {
-    width: auto; /* Aumentado de 150px */
-    height: auto; /* Aumentado de 40px */
+    width: auto;  /* Aumente conforme necessário */
+    height: auto;
+    transition: all 0.3s ease;
 }
 
 .logo:hover .logo-svg {
-    transform: scale(1.05);
+    transform: scale(1.08);
     filter: brightness(1.2);
 }
 
@@ -170,7 +171,6 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-    margin-top: 80px;
 }
 
 .hero::before {
@@ -219,7 +219,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 60%;
+    width: 100%;
     height: 100%;
     background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80');
     background-size: cover;
@@ -462,15 +462,16 @@ body {
 /* PROJETOS EM ANDAMENTO */
 .progress-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-    margin-top: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* cartões mais largos */
+    gap: 40px; /* mais espaço entre eles */
+    margin-top: 60px;
 }
 
 .progress-card {
     background: var(--card-bg);
     border-radius: 12px;
-    padding: 2rem;
+    padding: 2.5rem; /* mais respiro interno */
+    min-height: 280px;
     border: 1px solid var(--border-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
