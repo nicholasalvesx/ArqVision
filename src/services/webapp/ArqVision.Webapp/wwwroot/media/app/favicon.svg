@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 320" width="250" height="320">
+    <!-- Retângulo amarelo de fundo -->
+    <rect x="15" y="10" width="220" height="300" fill="#d4ff00"/>
+
+    <!-- Letra E estilizada em preto -->
+    <path d="M 15 50 L 235 50 L 235 105 L 155 150 L 235 150 L 235 205 L 155 250 L 235 250 L 235 305 L 15 305 Z" fill="#000000"/>
+</svg>

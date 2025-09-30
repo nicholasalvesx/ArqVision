@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nicholas/Documentos/workspace/JrCad/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj": {}
+    "/home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj": {}
   },
   "projects": {
-    "/home/nicholas/Documentos/workspace/JrCad/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj": {
+    "/home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nicholas/Documentos/workspace/JrCad/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj",
+        "projectUniqueName": "/home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj",
         "projectName": "ArqVision.Webapp",
-        "projectPath": "/home/nicholas/Documentos/workspace/JrCad/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj",
+        "projectPath": "/home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/ArqVision.Webapp.csproj",
         "packagesPath": "/home/nicholas/.nuget/packages/",
-        "outputPath": "/home/nicholas/Documentos/workspace/JrCad/src/services/webapp/ArqVision.Webapp/obj/",
+        "outputPath": "/home/nicholas/Documentos/workspace/arq_vision/src/services/webapp/ArqVision.Webapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nicholas/.nuget/NuGet/NuGet.Config"

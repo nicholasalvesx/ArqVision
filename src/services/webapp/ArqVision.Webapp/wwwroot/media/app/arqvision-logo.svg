@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100" height="40">
+    <!-- Retângulo amarelo de fundo -->
+    <rect x="178" y="399" width="221" height="303" fill="#d4ff00"/>
+
+    <!-- Letra E estilizada em preto -->
+    <path d="M 147 442 L 355 442 L 355 490 L 280 530 L 355 530 L 355 580 L 280 620 L 355 620 L 355 668 L 147 668 Z" fill="#000000"/>
+
+    <!-- Texto EVILÁSIO -->
+    <text x="445" y="560" font-family="Arial, sans-serif" font-size="120" font-weight="900" fill="#ffffff">EVILÁSIO</text>
+
+    <!-- Linha horizontal sob EVILÁSIO -->
+    <line x1="595" y1="570" x2="970" y2="570" stroke="#ffffff" stroke-width="3"/>
+
+    <!-- Texto JR -->
+    <text x="445" y="680" font-family="Arial, sans-serif" font-size="140" font-weight="900" fill="#ffffff">JR</text>
+
+    <!-- Texto ARQUITETO -->
+    <text x="625" y="668" font-family="Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="8" fill="#ffffff">ARQUITETO</text>
+
+    <!-- Linha horizontal sob ARQUITETO -->
+    <line x1="625" y1="678" x2="970" y2="678" stroke="#ffffff" stroke-width="3"/>
+</svg>
